@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap");
+
+* {
+  font-family: "Monsterrat", sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+section {
+  scroll-margin-top: 4rem;
+}
+
+@media screen and (min-width: 481px) {
+  /* Ketika masuk ukuran tablet */
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+    max-width: 481px;
+  }
+}
+
+@media screen and (min-width: 840px) {
+  /* Ketika masuk ukuran mini-laptop */
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+    max-width: 840px;
+  }
+}
+
+/* HEADER */
+.navbar {
+  position: sticky;
+  z-index: 10;
+  background-color: white/var(--tw-bg-opacity);
+  --tw-bg-opacity: 0.8;
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  display: flex;
+  top: 0px;
+  left: 0px;
+  align-items: center;
+}
+
+.navbarcon {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.top {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.navbarlogo {
+  display: block;
+  font-weight: 700;
+  color: rgb(164, 70, 253);
+}
+
+.nav {
+  max-width: 100%;
+  display: block;
+  position: static;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  width: 100%;
+  display: flex;
+}
+
+.position {
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
+  display: flex;
+  align-self: flex-end;
+}
+
+.group > a {
+  color: rgb(164, 70, 253);
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  /* display: flex; */
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* BODY */
+
+.roundedbox {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  color: black;
+  /* margin-top: 3rem; */
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.lineBorder {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.bgColorGray {
+  background-color: lightgrey;
+  padding: 10px;
+}
+
+.intro {
+  font-size: large;
+  color: rgb(85, 85, 85);
+}
+
+.fullname {
+  display: block;
+  font: bold;
+  color: rgb(164, 70, 253);
+  font-size: xx-large;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: medium;
+  margin-top: 10px;
+  color: rgb(85, 85, 85);
+}
+
+.webdev {
+  font: bold;
+  color: rgb(164, 70, 253);
+  font-size: large;
+}
+
+/* FOOTER */
+
+.footer {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgb(206, 206, 206);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
